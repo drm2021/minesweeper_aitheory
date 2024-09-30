@@ -1,5 +1,8 @@
 # Minesweeper
 
+##AI Theory
+This is a clone of nicarocho's Minesweeper code to modify for our (Donald, Zoë, and Callie) AI Theory & Programming project. We have added a button to the top bar (has a little robot on it) that we will use to allow an AI controller to play Minesweeper.
+
 Minesweeper... yep, that old classic game you remember playing on good ol' Windows '95 back in the day (in fact it was implemented in Microsoft's software updates until Windows 8).
 
 Minesweeper has its origins in the earliest mainframe games of the 1960s and 1970s. The earliest ancestor of Minesweeper was Jerimac Ratliff's Cube. The basic gameplay style became a popular segment of the puzzle game genre during the 1980s.
