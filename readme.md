@@ -1,3 +1,6 @@
+# AI Theory - Minesweeper
+This is a clone of nicarocho's Minesweeper code to modify for our (Donald, Zoë, and Callie) AI Theory & Programming project. We have added a button to the top bar (has a little robot on it) that we will use to allow an AI controller to play Minesweeper.
+
 # Minesweeper
 
 Minesweeper... yep, that old classic game you remember playing on good ol' Windows '95 back in the day (in fact it was implemented in Microsoft's software updates until Windows 8).
