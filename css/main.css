@@ -122,6 +122,7 @@ button:hover {
     border-right: 2px solid #7B7B7B;
     border-bottom: 2px solid #7B7B7B;
     border-left: 2px solid #ffffff;
+    cursor: pointer;
 }
 
 .revealed {

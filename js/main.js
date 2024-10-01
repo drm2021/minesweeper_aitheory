@@ -64,12 +64,21 @@ boardEl.addEventListener('click', function(e) {
   }
 });
 
-function createResetListener() { 
-  document.getElementById('reset').addEventListener('click', function() {
-    init();
-    render();
-  });
+function createResetListener() {
+    document.getElementById('reset').addEventListener('click', function () {
+        init();
+        render();
+    });
 }
+
+//AI EVENT LISTENER - MOST OF CODE SHOULD GO HERE
+function createAIListener() {
+    document.getElementById('ai').addEventListener('click', function () {
+        console.log("ai clicked!")
+    });
+}
+//-----------------------------------------------------------------------------
+
 
 /*----- functions -----*/
 function setTimer () {
@@ -113,8 +122,9 @@ function buildTable() {
     </tr>
     `;
   boardEl.innerHTML = topRow + `<tr>${'<td class="game-cell"></td>'.repeat(size)}</tr>`.repeat(size);
-  boardEl.style.width = sizeLookup[size].tableWidth;
-  createResetListener();
+    boardEl.style.width = sizeLookup[size].tableWidth;
+    createResetListener();
+    createAIListener(); // allows click on AI button
   var cells = Array.from(document.querySelectorAll('td:not(.menu)'));
   cells.forEach(function(cell, idx) {
     cell.setAttribute('data-row', Math.floor(idx / size));
